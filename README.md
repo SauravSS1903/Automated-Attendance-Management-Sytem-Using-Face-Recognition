@@ -5,12 +5,14 @@ The Automated Attendance Management System emphasizes the utilization of Face Re
 ## Instructions
 
 1. Run `app.py` to open an user-interface (Streamlit) to upload    the student images.
+
+2. The uploaded images gets stored in "student_images" directory.
     
-2. Ensure you have the necessary libraries installed (e.g.,OpenCV, face_recognition,Streamlit)
+3. Ensure you have the necessary libraries installed (e.g.,OpenCV, face_recognition,Streamlit)
     
-3. Run `precompute_encodings.py` to call the load_images_from_folder and encode_faces function from `face_recognition_utils.py` 
+4. Run `precompute_encodings.py` to call the "load_images_from_folder" and "encode_faces" function from `face_recognition_utils.py` 
     
-4. Run the `main.py` to open the webcam for live video capture and automatic attendance marking.
+5. Run the `main.py` to open the webcam for live video capture and automatic attendance marking.
 
 ## Usage
 
